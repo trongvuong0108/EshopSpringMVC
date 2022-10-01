@@ -17,9 +17,9 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <spring.version>5.3.15</spring.version>
+    <spring.version>5.3.23</spring.version>
     <spring.jdbc>5.3.16</spring.jdbc>
-    <mysql>8.0.28</mysql>
+    <mysql>8.0.30</mysql>
   </properties>
 
 
@@ -133,6 +133,7 @@
       <artifactId>hibernate-validator</artifactId>
       <version>6.0.13.Final</version>
     </dependency>
+
 
   </dependencies>
 

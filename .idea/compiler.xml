@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="EShop" />
         <module name="EShop-springMVC" />
+        <module name="EshopSrpingMVC" />
       </profile>
     </annotationProcessing>
   </component>

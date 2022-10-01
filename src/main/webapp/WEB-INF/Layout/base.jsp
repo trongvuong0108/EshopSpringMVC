@@ -10,11 +10,10 @@
     </title>
     <link rel="preconnect" href="<c:url value ="https://fonts.gstatic.com"/>">
     <link href="<c:url value ="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"/>" rel="stylesheet">
-    <link href="<c:url value ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"/>" rel="stylesheet">
+    <link href="<c:url value ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>" rel="stylesheet">
     <link href="<c:url value = "/resources/bootstrap/lib/animate/animate.min.css"/>" rel="stylesheet">
     <link href="<c:url value = "/resources/bootstrap/lib/owlcarousel/assets/owl.carousel.min.css"/>" rel="stylesheet">
     <link href="<c:url value = "/resources/bootstrap/css/style.css"/>" rel="stylesheet">
-    <link href="<c:url value = "/resources/demo.css"/>" rel="stylesheet">
 </head>
 <body>
     <tiles:insertAttribute name="header"/>

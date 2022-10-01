@@ -19,7 +19,8 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Product {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     @Type(type = "uuid-char")
     @Column(length = 36)
     private UUID id;
@@ -39,6 +40,7 @@ public class Product {
     private float priceOut;
     private String img ;
     private boolean enable;
+
 
     public Product(ProductModel productModel) {
         this.name = productModel.getName();
