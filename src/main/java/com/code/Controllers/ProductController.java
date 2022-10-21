@@ -8,12 +8,14 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 
 @Controller
-@RequestMapping("/product")
+@RequestMapping("/admin/product")
 public class ProductController {
     @Autowired
     private ProductService productService;
@@ -36,6 +38,13 @@ public class ProductController {
     public String createProduct(@ModelAttribute("product") Product product){
         productService.createProduct(product);
         return "redirect:/";
+    }
+
+    @RequestMapping("/update")
+    public String save(Map<String, Object> model, @RequestParam UUID id) {
+        Product product = productService.findProductById(id);
+        model.put("product", product);
+        return "updateProduct";
     }
 
 }

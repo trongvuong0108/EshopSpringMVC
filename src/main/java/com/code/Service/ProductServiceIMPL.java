@@ -29,6 +29,11 @@ public class ProductServiceIMPL implements ProductService {
     }
 
     @Override
+    public Product findProductById(UUID id) {
+        return productRepository.findById(id).get();
+    }
+
+    @Override
     public void disableProduct(UUID id) {
         Product product = productRepository.findById(id).get();
         product.setEnable(false);

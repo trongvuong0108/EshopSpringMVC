@@ -25,4 +25,9 @@
         <put-attribute name="title" value="Tạo mới sản phẩm" />
         <put-attribute name="content" value="/WEB-INF/Views/CreateProduct.jsp" />
     </definition>
+
+    <definition name="updateProduct" extends="baseLayout">
+        <put-attribute name="title" value="Tạo mới sản phẩm" />
+        <put-attribute name="content" value="/WEB-INF/Views/UpdateProduct.jsp" />
+    </definition>
 </tiles-definitions>

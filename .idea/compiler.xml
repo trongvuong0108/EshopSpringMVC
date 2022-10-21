@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="EShop" />
-        <module name="EShop-springMVC" />
         <module name="EshopSrpingMVC" />
+        <module name="EShop-springMVC" />
+        <module name="EshopSpringMVC" />
       </profile>
     </annotationProcessing>
   </component>

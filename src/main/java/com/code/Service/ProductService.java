@@ -11,6 +11,7 @@ public interface ProductService {
     public List<Product> getAllProduct();
     public void createProduct(Product product);
     public void updateProduct(ProductModel productModel);
+    public Product findProductById(UUID id);
     public void disableProduct(UUID id);
     public void enableProduct(UUID id);
 }
