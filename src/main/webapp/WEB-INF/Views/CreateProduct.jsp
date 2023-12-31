@@ -25,7 +25,7 @@
 
                 <div class="form-group">
                     <label for="txtprice">Giá sản phẩm</label>
-                    <input class="form-control" type="number" id="txtprice" name="" value=""">
+                    <input class="form-control" type="number" id="txtprice" name="" value="">
                 </div>
 
                 <div class="form-group">
