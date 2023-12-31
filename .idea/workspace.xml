@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef5bc328-0c9c-4b79-91eb-0dc8a11d0ffb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Config/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Config/AppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Config/Persistence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Config/Persistence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Config/Tiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Config/Tiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Config/WebMVCConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Config/WebMVCConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Controllers/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Controllers/testController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Entities/Bill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Entities/Bill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Entities/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Entities/Brand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Entities/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Entities/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Entities/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Entities/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Entities/Options.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Entities/Options.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Entities/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Entities/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Entities/detailBill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Entities/detailBill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Entities/productComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Entities/productComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Entities/productIMG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Entities/productIMG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Enum/checkoutType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Enum/checkoutType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Models/ProductModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Models/ProductModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Repository/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Repository/CategoryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Service/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Service/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/Service/ProductServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/Service/ProductServiceIMPL.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2aJcgXtKmrvNwHLmnjGYNZZcOlH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Work Space/Code/EshopSpringMVC",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef5bc328-0c9c-4b79-91eb-0dc8a11d0ffb" name="Changes" comment="" />
+      <created>1704040236458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704040236458</updated>
+      <workItem from="1704040237977" duration="121000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
