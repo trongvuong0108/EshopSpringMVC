@@ -1,8 +1,10 @@
 services:
   database:
     image: mysql:latest
+    container_name: mysql
+    hostname: mysql
     ports:
-      - 3306
+      - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: Password@1234
       MYSQL_USER: admin
@@ -11,13 +13,16 @@ services:
   tomcat:
     image: tomcat:8.5.31-jre8
     ports:
-      - 8080
+      - "8080:81"
     links:
       - app
     volumes_from:
       - app
   app:
-    image: ${{build_image}}
+    image: ${DOCKER_REGISTRY-}eshop
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
       - wars:/opt/tomcat/webapps
     links:

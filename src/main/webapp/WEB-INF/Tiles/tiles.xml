@@ -16,9 +16,9 @@
     </definition>
 
 
-    <definition name="productManagerment" extends="baseLayout">
+    <definition name="ProductManagement" extends="baseLayout">
         <put-attribute name="title" value="Quản lý sản phẩm" />
-        <put-attribute name="content" value="/WEB-INF/Views/ProductManagerment.jsp" />
+        <put-attribute name="content" value="/WEB-INF/Views/ProductManagement.jsp" />
     </definition>
 
     <definition name="createProduct" extends="baseLayout">

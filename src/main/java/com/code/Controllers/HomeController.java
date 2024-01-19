@@ -2,24 +2,26 @@ package com.code.Controllers;
 
 import com.code.Entities.Category;
 import com.code.Entities.Product;
-import com.code.Service.CategoryService;
-import com.code.Service.ProductService;
+import com.code.Services.CategoryService;
+import com.code.Services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Controller
 @RequestMapping("/")
 public class HomeController {
-    @Autowired
-    private ProductService productService;
+    private final ProductService productService;
 
-    @Autowired
-    private CategoryService categoryService;
+    private final CategoryService categoryService;
+
+    public HomeController(ProductService productService, CategoryService categoryService) {
+        this.productService = productService;
+        this.categoryService = categoryService;
+    }
 
     @RequestMapping("/")
     public String home(ModelMap modelMap){

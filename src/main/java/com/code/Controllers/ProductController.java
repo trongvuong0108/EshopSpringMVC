@@ -1,8 +1,7 @@
 package com.code.Controllers;
 
 import com.code.Entities.Product;
-import com.code.Service.ProductService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.code.Services.ProductService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -17,14 +16,17 @@ import java.util.UUID;
 @Controller
 @RequestMapping("/admin/product")
 public class ProductController {
-    @Autowired
-    private ProductService productService;
+    private final ProductService productService;
+
+    public ProductController(ProductService productService) {
+        this.productService = productService;
+    }
 
     @RequestMapping("/")
     public String listProduct(ModelMap modelMap){
         List<Product> products = productService.getAllProduct();
         modelMap.addAttribute("productList",products);
-        return "productManagerment";
+        return "ProductManagement";
     }
 
     @RequestMapping("/create")

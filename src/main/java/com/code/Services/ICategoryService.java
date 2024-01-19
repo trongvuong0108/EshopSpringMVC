@@ -1,11 +1,11 @@
-package com.code.Service;
+package com.code.Services;
 
 import com.code.Entities.Category;
 
 import java.util.List;
 import java.util.UUID;
 
-public interface CategoryService {
+public interface ICategoryService {
     public List<Category> getAllCategory();
     public void createCategory(Category category);
     public void updateCategory();

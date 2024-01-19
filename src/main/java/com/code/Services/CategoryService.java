@@ -1,17 +1,19 @@
-package com.code.Service;
+package com.code.Services;
 
 import com.code.Entities.Category;
-import com.code.Repository.CategoryRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.code.Repositories.CategoryRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.UUID;
 
 @Service
-public class CategoryServiceImpl implements CategoryService{
-    @Autowired
-    private CategoryRepository categoryRepository;
+public class CategoryService implements ICategoryService{
+    private final CategoryRepository categoryRepository;
+
+    public CategoryService(CategoryRepository categoryRepository) {
+        this.categoryRepository = categoryRepository;
+    }
 
     @Override
     public List<Category> getAllCategory() {

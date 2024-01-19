@@ -24,7 +24,7 @@ import java.util.Properties;
 @EnableTransactionManagement
 @PropertySource("classpath:properties.properties")
 @ComponentScan("com.code")
-@EnableJpaRepositories(basePackages = "com.code.Repository")
+@EnableJpaRepositories(basePackages = "com.code.Repositories")
 public class Persistence {
     @Autowired
     private Environment env;
